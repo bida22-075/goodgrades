@@ -1,0 +1,181 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px auto;
+    overflow:auto;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 2px;
+    color: aliceblue;
+}
+
+#mainContainer {
+
+    background-color:grey;
+    border-radius: 5px;
+      
+  }
+
+  nav.horizontalNav {
+    position: relative;
+    text-align: center;
+    background:grey;
+    height: 100px;
+    border-radius: 5px;
+  }
+
+
+
+nav.horizontalNav li a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+  nav.horizontalNav ul {
+    list-style :none;
+  }
+
+  nav.horizontalNav li {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+    top: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+
+  nav.horizontalNav li:hover {
+    color: white;
+    background: grey;
+    border-radius: 5px;
+    }
+
+   
+div.responsive{
+    float: left;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: black;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: grey;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: black;
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid black;  
+    }
+  }
+
+  div.responsive{
+    float: left;
+}
+
+
+
+
+
+div.gallery {
+  border: 2px 2px 2px 2px solid #ccc;
+}
+
+
+
+
+div.gallery img {
+  width: 150%;
+  height: 110%;
+}
+
+div.desc {
+  padding: 21px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width:23%;
+}
+
+
+}
+
+
+  footer{
+    background-color: gray;
+  }\
